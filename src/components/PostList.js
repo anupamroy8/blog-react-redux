@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchPostsAndUsers } from "../actions";
 import UserHeader from "./UserHeader";
+import { fetchPostsAndUsers } from "../actions";
 
 class PostList extends React.Component {
   componentDidMount() {
